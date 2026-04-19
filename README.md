@@ -227,7 +227,7 @@ You will see the interactive Swagger API documentation.
 
 **Terminal 1 — Start the API:**
 ```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 #port number can be changed
 ```
 
 **Terminal 2 — Start the Streamlit UI:**
